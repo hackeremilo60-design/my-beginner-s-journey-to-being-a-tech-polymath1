@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Home Page</title>
+        <style>
+            .my container{
+                margin: 20px;
+                overflow: hidden;
+                display: flex;
+            }
+            .my div{
+                margin: 0%;
+                padding: 0;
+                display: inline-block;
+                text-align: center;
+            }
+            .testbtn {
+                 background-color: #04AA6D;
+                    color: white;
+                    font-size: 15px;
+                    padding: 12px;
+                     border: none;
+                     border-radius: 5px;
+                             cursor: pointer;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="my container">
+            <div style="color: brown; background-color: blanchedalmond;">
+                    <p>london is not a continent</p>
+                    <p> kenya is not a city</p>
+                    <p>nigeria is not a state</p>
+            </div>
+            <div style="color: white; background-color: blueviolet;">
+                    <p>london is a city</p>
+                    <p> kenya is a country</p>
+                    <p>nigeria is a country</p>
+                    </div>
+                    <div style="color: white; background-color: black;">
+                    <p>london is a city</p>
+                    <p> kenya is a country</p>
+                    <p>nigeria is a country</p> 
+                    </div>
+        </div> 
+    <div><button>Click Me</button></div>
+       <div><button style="color: green;"> green button</button>
+        </div>
+    <section> <div><button class="testbtn"> test button</button></div></section>
+  <div><button onclick="alert('hello!,commit genocide')">Click Me</button></div>
+  <div><button type="button"onclick="document.getElementById('wing').innerHTML=Date()">Show Date</button></div>
+  <p id="wing"></p>
+  <script>
+    document.getElementById("demo").innerHTML="hello world!";
+  </script>
+<p id="demo"></p>
+</body>
+</html>

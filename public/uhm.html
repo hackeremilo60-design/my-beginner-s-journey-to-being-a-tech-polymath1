@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                border-style: dotted;
+                border-spacing: 30px;
+                padding: 10px;
+                border-radius: 10px;
+                font-size: larger
+            }
+            th{
+                color: red;
+            }
+            tr:nth-child(odd){
+                background-color: #d6EEEE;
+            }
+            ul{
+                list-style-type: none;
+                background-color: black;
+                border-spacing: 0cap;
+                padding: 10px;
+                margin:none
+                
+            }
+            li a{
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+            }
+            li a:hover{
+                background-color: white;
+                color: black;
+                border-radius: 10px;
+                overflow: hidden;
+                
+            }
+            li{
+                display: inline-block;
+            }
+            li{
+                float: none;
+            }
+            li a{
+                text-align: center;
+                text-decoration: none;
+            }
+        </style>
+        </head>
+        <body>
+            <table style="width: 100;">
+                <tr>
+                    <th colspan="2">name</th>
+                    <th>age</th>
+                </tr>
+                <tr>
+                    <td>jill</td>
+                    <td> smith</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>john</td>
+                    <td> joel</td>
+                    <td>34</td>
+                </tr>
+            </table>
+            <div>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#services">services</a></li>
+            </ul>
+            </div>
+            <p>
+                <div>
+                    <p>my mom has <span style="color: red;">two cats</span>while my dad has <span style="color: blue;">three dogs</span></p>
+                </div>
+            </p>     
+                <ol style="list-style-type: upper-roman;">
+                    <li> yuno</li>
+                    <li> yuki</li>
+                    <li>
+                        <ol style="list-style-type: lower-alpha;">
+                            <li> yuki</li>
+                            <li> yuri</li>
+                        </ol>
+                    </li>
+                </ol>
+            
+        </body>
+</html>
